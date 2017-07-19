@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>border-radius用法</title>
+</head>
+<style>
+    .container1 {
+        height: 200px;
+        width: 200px;
+        border: 1px solid red;
+        margin: auto;
+        background-color: crimson;
+        margin-bottom: 30px;
+    }
+
+    .container2 {
+        display: inline-block;
+        font-size: large;
+        color: aliceblue;
+        height: 200px;
+        width: 200px;
+        border: 1px solid red;
+        background-color: darkblue;
+        border-radius: 15px;
+        padding-top: 30px;
+    }
+
+    .container3 {
+        display: inline-block;
+        font-size: large;
+        color: aliceblue;
+        font-size: large;
+        color: aliceblue;
+        height: 200px;
+        width: 200px;
+        border: 1px solid red;
+        background-color: darkblue;
+        border-radius: 15px 50px;
+        padding-top: 30px;
+    }
+
+    .container4 {
+        display: inline-block;
+        font-size: large;
+        color: aliceblue;
+        height: 200px;
+        width: 200px;
+        border: 1px solid red;
+        background-color: darkblue;
+        border-radius: 15px 50px 100px;
+        padding-top: 30px;
+    }
+
+    .container5 {
+        display: inline-block;
+        font-size: large;
+        color: aliceblue;
+        height: 200px;
+        width: 200px;
+        border: 1px solid red;
+        background-color: darkblue;
+        border-radius: 15px 50px 100px 150px;
+        padding-top: 30px;
+    }
+
+    .container6 {
+        display: inline-block;
+        font-size: large;
+        color: aliceblue;
+        height: 200px;
+        width: 200px;
+        border: 1px solid red;
+        background-color: darkblue;
+        border-radius: 50%;
+        padding-top: 50px;
+    }
+
+</style>
+<body>
+<div class="container1"></div>
+<div>
+    <div class="container2">
+        border-radius: 15px;
+    </div>
+    <div class="container3">
+        border-radius: 15px 50px;
+    </div>
+    <div class="container4"> border-radius: 15px 50px 100px;</div>
+    <div class="container5"> border-radius: 15px 50px 100px 150px;</div>
+    <div class="container6">border-radius: 50%;</div>
+</div>
+</div>
+</body>
+</html>
